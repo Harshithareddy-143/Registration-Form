@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        .container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #555495;
+}
+
+   .container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #555495;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(62, 38, 56);
+}
+
+input {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: 2px solid white;
+  width: 250px;
+  height: 30px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: rgb(3, 34, 54);
+  color: rgb(43, 122, 64);
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  border-color: rgb(2, 9, 14);
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 120px;
+  height: 45px;
+  display: block;
+  margin: 20px auto;
+}
+
+.btn:hover {
+  background-color: rgb(115, 223, 115);
+   
+}
+.register {
+  display: inline-block;
+  background-color: #032236;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 35px;
+  transition: all 0.3s ease;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.register:hover {
+  background-color: #73df73;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.register {
+  transform: scale(0.95);
+}
+       
+    </style>
+</head>
+<body>
+    
+    
+    <div class="container">
+    <form action="container">
+        <h1>Login</h1>
+        <input type="text" name="Username" id="username" placeholder="Email"><br>
+        
+        <input type="password" name="password" id="Password" placeholder="Password"><br>
+        <input type="button" value="Submit" class="btn">
+        <a href="03_index.html" class="register">Registration Form</a>
+    </form>
+    
+    </div>
+</body>
+</html>
